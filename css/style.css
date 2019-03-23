@@ -1,0 +1,275 @@
+html, body {
+    min-width: 1200px;
+    background: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+.row:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.pic {
+    font-size: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+/**/
+/**/
+/**/
+/**/
+
+.header .nav_head {
+    width: 100%;
+    height: 85px;
+    background: #ffffff;
+}
+
+.header .nav_head .name {
+    float: left;
+    padding-top: 32px;
+    padding-left: 30px;
+}
+
+.header .nav_head .name a {
+    display: block;
+    width: 241px;
+    height: 20px;
+    background: url("../images/base/name_.png") center /cover no-repeat;
+}
+
+.header .nav_head .logo {
+    float: left;
+    padding-top: 22px;
+    padding-left: 240px;
+}
+
+.header .nav_head .logo h1 {
+    font-size: 0;
+}
+
+.header .nav_head .logo h1 a {
+    display: block;
+    width: 182px;
+    height: 41px;
+    background: url("../images/base/logo.png") center / cover no-repeat;
+}
+
+.header .nav_head .tel {
+    height: 20px;
+    line-height: 20px;
+    padding-top: 30px;
+    float: right;
+}
+
+.header .nav_head .tel span {
+    font-size: 18px;
+    color: #666666;
+}
+
+.header .nav_head .tel a {
+    font-size: 24px;
+    color: #bd1e21;
+}
+
+.header .nav_head .tel a:hover {
+    text-decoration: none;
+}
+
+.header .nav {
+    width: 100%;
+    height: 50px;
+    background: #c0262a;
+}
+
+.header .nav ul li {
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    transition: all .3s;
+}
+
+.header .nav ul li.on {
+    background: #981d20;
+}
+
+.header .nav ul li a {
+    font-size: 16px;
+    display: block;
+}
+
+.header .nav ul li:hover {
+    background: #981d20;
+    transition: all .3s;
+}
+
+.header .nav ul li:hover .has_menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all .3s;
+}
+
+.header .nav ul li a:hover {
+    text-decoration: none;
+}
+
+.header .nav ul li .has_menu {
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0);
+    padding-top: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(0, -10px);
+    transition: all .3s;
+}
+
+.header .nav ul li .has_menu ul {
+    padding: 0 10px 5px 10px;
+    background: #c0262a;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header .nav ul li .has_menu ul:before {
+    content: '';
+    display: block;
+    border-left: 8px transparent solid;
+    border-right: 8px transparent solid;
+    border-top: 8px transparent solid;
+    border-bottom: 8px #c0262a solid;
+    position: absolute;
+    left: 42%;
+    top: -16px;
+    margin: auto;
+}
+
+.header .nav ul li .has_menu ul li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: dashed #cccccc 1px;
+}
+
+.header .nav ul li .has_menu ul li:last-child {
+    border-bottom: none;
+}
+
+.header .nav ul li .has_menu ul li:hover {
+    background: none;
+}
+
+.header .nav ul li .has_menu ul li a {
+    font-size: 14px;
+}
+
+/**/
+/**/
+/**/
+/*底部S*/
+.footer {
+    width: 100%;
+    height: 256px;
+    background-color: #c0262a;
+}
+
+.footer .footer-major {
+    width: 100%;
+    height: 216px;
+}
+
+.footer .footer-major .logo {
+    float: left;
+    padding-top: 77px;
+}
+
+.footer .footer-major .logo .pic {
+    width: 308px;
+    height: 70px;
+}
+
+.footer .footer-major .connect {
+    float: left;
+    padding-top: 30px;
+    padding-left: 68px;
+}
+
+.footer .footer-major .connect .address p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.footer .footer-major .connect .tel {
+    padding-top: 10px;
+}
+
+.footer .footer-major .connect .tel span {
+    display: block;
+    color: #ffffff;
+}
+
+.footer .footer-major .connect .tel span.num {
+    font-size: 24px;
+}
+
+.footer .footer-major .weixin {
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer .footer-major .weixin .pic {
+    width: 136px;
+    height: 136px;
+    font-size: 0;
+}
+
+.footer .footer-major .weixin label {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer .footer-sub {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 1px solid #aaaaaa;
+}
+
+.footer .footer-sub p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/*底部E*/

@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'webfont';
+    src: url('../font/syht/webfont.eot'); /* IE9 */
+    src: url('../font/syht/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/syht/webfont.woff') format('woff'), /* chrome、firefox */ url('../font/syht/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../font/syht/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+}
+
+.banner .swiper-slide {
+    width: 100%;
+    height: 650px;
+}
+
+.banner .swiper-pagination-bullet {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #c0262a;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+
+.banner .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #c0262a;
+}
+
+/**/
+/**/
+/**/
+.msg_list {
+    padding: 16px 0 70px 0;
+
+}
+
+.msg_list .container .row .item {
+    width: 33.33%;
+    float: left;
+    padding: 0 25px;
+    /*padding-right: 50px;*/
+}
+
+.msg_list .msg_title {
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    margin: 30px 0;
+}
+
+.msg_list .msg_title h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    padding: 13px 0;
+}
+
+.msg_list .msg_title:after {
+    content: '';
+    display: block;
+    width: 94px;
+    height: 3px;
+    background: #c0262a;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.msg_list .msg_title .more {
+    font-size: 14px;
+    color: #999999;
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+}
+
+.msg_list .pic.gsjs {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.msg_list .pic.gsjs img {
+    border-radius: 2px;
+}
+
+.msg_list .txt.gsjs p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+    text-indent: 28px;
+    font-family: webfont, sans-serif;
+}
+
+.msg_list .pic.activity {
+    width: 363px;
+    height: 298px;
+    position: relative;
+}
+
+.msg_list .pic.activity p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #c0262a;
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/**/
+/**/
+/**/
+.content .title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content .title h3 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #333333;
+    font-family: MFYueHei_Noncommercial-Regular, sans-serif;
+}
+.content .title b{
+    font-weight: normal;
+    color: #c0262a;
+}
+/**/
+/**/
+/**/
+.instance {
+    background: #fdf3f3;
+}
+
+.instance_nav {
+    text-align: center;
+    font-size: 0;
+}
+
+.instance_nav ul {
+    display: inline-block;
+}
+
+.instance_nav ul li {
+    text-align: center;
+    float: left;
+    margin: 0 12px;
+    width: 189px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 22px;
+    color: #333333;
+    cursor: pointer;
+
+}
+
+.instance_nav ul li {
+    border: solid 1px #cccccc;
+    border-radius: 31px;
+    transition: all .5s;
+}
+
+.instance_nav ul li.on {
+    border-radius: 0;
+    border-color: #c0262a;
+    background: #c0262a;
+    color: #ffffff;
+    transition: all .5s;
+}
+
+.instance_container {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    margin-top: 65px;
+}
+
+.instance_container .instance_item {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.instance_container .instance_item.on {
+    visibility: visible;
+    opacity: 1;
+}
+
+.instance_container .instance_item .left {
+    width: 600px;
+    float: left;
+}
+
+.instance_container .instance_item .pic {
+    width: 458px;
+    height: 319px;
+    margin: auto;
+}
+
+.instance_container .instance_item .context {
+    width: 600px;
+    float: left;
+    /*position: relative;*/
+}
+
+.instance_container .instance_item .context h6 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.instance_container .instance_item .context p {
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 1px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    line-height: 24px;
+}
+
+.instance_container .instance_item .context a {
+    display: block;
+    width: 180px;
+    height: 49px;
+    background: #c0262a;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 49px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 600px;
+    bottom: 40px;
+}
+
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+
+.doctor .main:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.doctor_nav {
+    width: 450px;
+    height: 536px;
+    float: right;
+}
+
+.doctor_container {
+    width: 750px;
+    height: 536px;
+    border: solid 2px #c0262a;
+    float: left;
+    position: relative;
+}
+
+.doctor_container .doctor_item {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.doctor_container .doctor_item.on {
+    visibility: visible;
+    opacity: 1;
+}
+
+.doctor_nav ul li {
+    width: 180px;
+    height: 255px;
+    float: left;
+    background-image: linear-gradient(45deg, #eeecec 0%, #dedede 100%);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.doctor_nav ul li span {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
