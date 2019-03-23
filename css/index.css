@@ -101,9 +101,11 @@
     right: 0;
     bottom: 12px;
 }
-.msg_list .msg_title .more:hover{
+
+.msg_list .msg_title .more:hover {
     color: #c0262a;
 }
+
 .msg_list .pic.gsjs {
     width: 100%;
     height: 160px;
@@ -123,7 +125,7 @@
 }
 
 .msg_list .pic.activity {
-    width: 363px;
+    width: 100%;
     height: 298px;
     position: relative;
 }
@@ -176,9 +178,9 @@
     padding-left: 25px;
 }
 
-.news_list a:hover h5{
+.news_list a:hover h5 {
     color: #c0262a;
-    transform: translate(0,-3px);
+    transform: translate(0, -3px);
     transition: all .3s;
 }
 
@@ -391,10 +393,151 @@
     top: 26px;
 }
 
-/**/
-/**/
-/**/
+.plate_container {
+    width: 949px;
+    height: 508px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    padding: 11px;
+    position: relative;
+    overflow: hidden;
+}
 
+.plate_item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.plate_item.on {
+    visibility: visible;
+    opacity: 1;
+}
+
+.plate_item .tip {
+    width: 682px;
+    height: 356px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    float: left;
+}
+
+.plate_item .tip .tip_s {
+    position: absolute;
+    width: 364px;
+    height: 249px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    opacity: 0.85;
+    top: 28px;
+    right: 34px;
+    padding: 24px;
+}
+
+.plate_item .tip .tip_s h5 {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    padding: 0 20px 10px 20px;
+    line-height: 30px;
+}
+
+.plate_item .tip .tip_s p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.guild {
+    width: 233px;
+    height: 356px;
+    border-radius: 2px;
+    background-image: linear-gradient(90deg, rgba(238, 238, 238, 1) 10%, rgba(0, 0, 0, 0) 10%),
+    linear-gradient(rgba(238, 238, 238, 1) 10%, rgba(0, 0, 0, 0) 10%);
+    background-size: 10px 10px;
+    float: left;
+    margin-left: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.guild h5 {
+    font-size: 32px;
+    color: #333333;
+    line-height: 32px;
+    padding: 100px 0 17px 0;
+}
+
+.guild a {
+    font-size: 18px;
+    color: #333333;
+}
+
+.guild a.liaojie {
+    display: block;
+    width: 146px;
+    height: 45px;
+    background: #c0262a;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.summary {
+    width: 100%;
+    height: 110px;
+    float: left;
+    margin-top: 18px;
+}
+
+.summary ul li {
+    width: 292px;
+    height: 109px;
+    border-radius: 55px;
+    border: solid 1px #cccccc;
+    float: left;
+    margin-right: 24px;
+    padding: 0 20px 0 30px;
+}
+
+.summary ul li .num {
+    font-size: 72px;
+    color: #c0262a;
+    font-family: xiqiyangyang, sans-serif;
+    float: left;
+    line-height: 100px;
+}
+
+.summary ul li .con {
+    float: left;
+    width: 170px;
+    padding-left: 20px;
+}
+
+.summary ul li .con h6 {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 0 10px 0;
+    color: #333333;
+}
+
+.summary ul li .con p {
+    font-size: 14px;
+    color: #666666;
+}
+
+/**/
+/**/
+/**/
 .specialty {
     height: 489px;
     background-color: #f5f5f5;
@@ -555,7 +698,7 @@
     position: relative;
 }
 
-.doctor .main:after {
+.doctor_container:after {
     content: '';
     display: block;
     height: 0;
@@ -563,62 +706,114 @@
     clear: both;
 }
 
-.doctor_nav {
-    width: 435px;
-    height: 536px;
-    float: right;
+.doctor_container {
+
 }
 
-.doctor_container {
+.doctor_container .doctor_master {
     width: 750px;
     height: 536px;
     border: solid 2px #c0262a;
-    float: left;
     position: relative;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+    float: left;
+    padding: 13px;
 }
 
-.doctor_container .doctor_item {
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.doctor_container .doctor_item.on {
-    visibility: visible;
-    opacity: 1;
-}
-
-.doctor_nav ul li {
-    width: 180px;
-    height: 255px;
+.doctor_master .pic {
+    width: 354px;
+    height: 100%;
     float: left;
     background-image: linear-gradient(45deg, #eeecec 0%, #dedede 100%);
-    margin-bottom: 25px;
+}
+
+.doctor_master .context {
+    width: 340px;
+    height: 100%;
+    float: left;
     margin-left: 25px;
     position: relative;
 }
 
-.doctor_nav ul li .pic {
-    width: 100%;
-    height: 100%;
+.doctor_master .name {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #333333;
 }
 
-.doctor_nav ul li span {
+.doctor_master .genre {
+    width: 336px;
+    height: 37px;
+    background: #c0262a;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 37px;
+    padding-left: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.doctor_master .genre:after {
+    content: '';
     display: block;
-    width: 100%;
-    height: 30px;
+    border-right: #FFFFFF solid 25px;
+    border-bottom: transparent solid 37px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.doctor_master .vert {
     font-size: 18px;
+    color: #333333;
+}
+
+.doctor_master p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.doctor_master a {
+    display: block;
+    width: 184px;
+    height: 54px;
+    background-color: #c0262a;
+    border-radius: 2px;
+    line-height: 54px;
     color: #ffffff;
     text-align: center;
-    line-height: 30px;
-    letter-spacing: 1px;
-    background: rgba(0, 0, 0, .6);
+    font-size: 23px;
+    letter-spacing: 2px;
     position: absolute;
-    bottom: 0;
+    bottom: 85px;
     left: 0;
 }
-
+.doctor_minor{
+    width: 450px;
+    float: left;
+}
+.doctor_minor ul li {
+    width: 180px;
+    height: 255px;
+    float: left;
+    position: relative;
+    margin-left: 23px;
+    margin-bottom: 23px;
+}
+.doctor_minor ul li p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
 /**/
 /**/
 /**/

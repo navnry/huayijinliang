@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "xiqiyangyang";
+  src: url("xiqiyangyang.woff") format("woff"),
+       url("xiqiyangyang.ttf") format("truetype"),
+       url("xiqiyangyang.eot") format("embedded-opentype"),
+       url("xiqiyangyang.svg") format("svg"),
+       url("xiqiyangyang.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
