@@ -19,7 +19,13 @@ ul:after {
     width: 1200px;
     margin: auto;
 }
-
+.main:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
 .row:after {
     content: '';
     display: block;
