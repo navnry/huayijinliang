@@ -163,7 +163,6 @@
     font-size: 14px;
     color: #666666;
     line-height: 26px;
-    font-family: webfont, sans-serif;
 }
 
 .msg_list .pic.activity {
@@ -184,8 +183,10 @@
 
 .news_list .news_first .con {
     width: 189px;
+    height: 110px;
     float: left;
     padding-left: 15px;
+    overflow: auto;
 }
 
 .news_list .news_first .con p {
