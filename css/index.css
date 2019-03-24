@@ -98,11 +98,18 @@
 
 }
 
+.msg_list .container {
+    overflow: hidden;
+}
+
+.msg_list .container .row {
+    width: 1250px;
+}
+
 .msg_list .container .row .item {
     width: 33.33%;
     float: left;
-    padding: 0 25px;
-    /*padding-right: 50px;*/
+    padding-right: 50px;
 }
 
 .msg_list .msg_title {
@@ -155,8 +162,7 @@
 .msg_list .txt.gsjs p {
     font-size: 14px;
     color: #666666;
-    line-height: 24px;
-    letter-spacing: -1px;
+    line-height: 26px;
     font-family: webfont, sans-serif;
 }
 
