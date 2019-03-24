@@ -10,3 +10,31 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: "X-huayangmeinan";
+    src: url("../../font/huayangmeinan/X-huayangmeinan.eot"); /* IE9 */
+    src: url("../../font/huayangmeinan/X-huayangmeinan.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+
+    url("../../font/huayangmeinan/X-huayangmeinan.woff") format("woff"), /* chrome、firefox */
+    url("../../font/huayangmeinan/X-huayangmeinan.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+
+    url("../../font/huayangmeinan/X-huayangmeinan.svg#X-huayangmeinan") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MFYueHei_Noncommercial-Regular";
+    src: url("../../font/MFYueHei_Noncommercial-Regular/MFYueHei_Noncommercial-Regular.eot"); /* IE9 */
+    src: url("../../font/MFYueHei_Noncommercial-Regular/MFYueHei_Noncommercial-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+
+    url("../../font/MFYueHei_Noncommercial-Regular/MFYueHei_Noncommercial-Regular.woff") format("woff"), /* chrome、firefox */
+    url("../../font/MFYueHei_Noncommercial-Regular/MFYueHei_Noncommercial-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+
+    url("../../font/MFYueHei_Noncommercial-Regular/MFYueHei_Noncommercial-Regular.svg#MFYueHei_Noncommercial-Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+

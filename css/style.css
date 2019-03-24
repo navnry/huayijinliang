@@ -65,7 +65,11 @@ a:hover{
     display: block;
     width: 241px;
     height: 20px;
-    background: url("../images/base/name_.png") center /cover no-repeat;
+    font-family: X-huayangmeinan,sans-serif;
+    color: #333333;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
 }
 
 .header .nav_head .logo {
