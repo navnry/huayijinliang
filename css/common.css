@@ -186,7 +186,7 @@ a:hover {
 
 .header .nav_head .name a {
     display: block;
-    width: 241px;
+    /*width: 241px;*/
     height: 20px;
     font-family: X-huayangmeinan, sans-serif;
     color: #333333;

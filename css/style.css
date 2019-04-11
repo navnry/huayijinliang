@@ -531,6 +531,7 @@
     font-size: 18px;
     color: #666666;
     padding: 0 5px;
+    background: #ffffff;
 }
 
 .sidebar-middle input[type=text] {
@@ -551,6 +552,7 @@
     line-height: 40px;
     font-size: 18px;
     color: #666666;
+    background: #ffffff;
     resize: none
 }
 

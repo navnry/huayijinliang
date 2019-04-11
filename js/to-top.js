@@ -1,5 +1,5 @@
 window.onscroll = function () {
-    if (document.documentElement.scrollTop + document.body.scrollTop > 700) {
+    if (document.documentElement.scrollTop + document.body.scrollTop > 400) {
         $("#toTop").fadeIn()
     } else {
         $("#toTop").fadeOut()

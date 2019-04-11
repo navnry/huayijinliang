@@ -1,4 +1,4 @@
-let wow = new WOW({
+var wow = new WOW({
     boxClass: 'ani',
     delay: 100
 });
